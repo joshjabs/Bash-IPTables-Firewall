@@ -1,4 +1,5 @@
 # A Bash Firewall IPTables Wrapper
+https://github.com/joshjabs/Bash-IPTables-Firewall
 
 This is a little bash script to generate, modify, and view IPTable rules. It can also export an HTML report of the current rules to the Desktop, offers menu item descriptions for clarification, and utilizes UFW to receive active status information. To run, you must execute as root:
 
@@ -23,4 +24,4 @@ Under the IPTables Services, you can:
  8. Generate an HTML Report
  9. Go back to Main Menu
 
-And if you choose to Build Your Firewall with Iptables the script will give you a walk-through to generate the command to manipulate/filter packets. You can specify the chain, source, destination, protocol, and actions to be taken. This will generate an IPTables command which you can import into your active rules. 
+And if you choose to Build Your Firewall with Iptables the script will give you a walk-through to generate the command to manipulate/filter packets. You can specify the chain, source, destination, protocol, and actions to be taken. This will generate an IPTables command which you can import into your active rules.
